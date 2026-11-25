@@ -1,0 +1,15 @@
+# Environment & Secrets
+
+.env .env.\* !.env.example
+
+# Python Cache & Virtual Environments
+
+**pycache**/ \*.py\[cod\] \*\$py.class venv/ .venv/ env/
+
+# Runtime Incident Logs & Evidence Captures
+
+incident_logs/
+
+# OS & Editor Files
+
+.DS_Store Thumbs.db .vscode/ .idea/

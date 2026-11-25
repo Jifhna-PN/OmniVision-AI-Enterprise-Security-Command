@@ -25,7 +25,7 @@ class AutonomousResponder:
     def __init__(self, bucket_name="omnivision-security-vault"):
         self.bucket_name = os.getenv("AWS_S3_BUCKET", bucket_name)
         self.sns_topic_arn = os.getenv("AWS_SNS_TOPIC_ARN", "")
-        self.region = os.getenv("AWS_DEFAULT_REGION", "ap-southeast-2")
+        self.region = os.getenv("AWS_DEFAULT_REGION", "")
         self.ledger_path = "incident_logs/audit_ledger.csv"
 
         self.s3 = None

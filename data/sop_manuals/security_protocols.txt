@@ -1,0 +1,8 @@
+RULE #42: SERVER ROOM WEAPON & TOOL INTRUSION (ZONE-A)
+If an unrecognized individual is detected carrying a weapon or unauthorized tool (crowbar, scissors, knife, or cellphone proxy) inside Zone-A (Main Server Room):
+1. Immediately engage electromagnetic locks on Zone-A doors.
+2. Cut auxiliary power to Server Racks 1-4.
+3. Capture visual evidence, upload to the AWS S3 Evidence Vault, generate a tactical floor plan for police responders, and transmit an automated Tier-1 emergency dispatch.
+
+RULE #15: GENERAL OFFICE AREA (ZONE-B)
+Standard personal items (cellphones, laptops, backpacks) are permitted in Zone-B during business hours. If an unrecognized visitor is spotted without a weapon, log as Tier-3 Low Risk and alert the front desk.
